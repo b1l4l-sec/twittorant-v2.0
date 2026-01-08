@@ -1,89 +1,89 @@
 # 🐦 Twittorant v2.0
 
-> **Team Up using this platform** - Une plateforme collaborative de partage et de collaboration d'équipe
+> **Team Up using this platform** - A collaborative team sharing and collaboration platform
 
 ---
 
-## 📋 Table des matières
+## 📋 Table of Contents
 
-- [À propos](#-à-propos)
-- [Fonctionnalités](#-fonctionnalités)
-- [Prérequis](#-prérequis)
+- [About](#-about)
+- [Features](#-features)
+- [Prerequisites](#-prerequisites)
 - [Installation](#-installation)
 - [Configuration](#-configuration)
-- [Utilisation](#-utilisation)
-- [Captures d'écran](#-captures-décran)
-- [Structure du projet](#-structure-du-projet)
-- [Accès administrateur](#-accès-administrateur)
-- [Technologie utilisée](#-technologie-utilisée)
-- [Licence](#-licence)
+- [Usage](#-usage)
+- [Screenshots](#-screenshots)
+- [Project Structure](#-project-structure)
+- [Admin Access](#-admin-access)
+- [Technology Stack](#-technology-stack)
+- [Security](#-security)
+- [Troubleshooting](#-troubleshooting)
+- [Support](#-support)
 
 ---
 
-## 🎯 À propos
+## 🎯 About
 
-**Twittorant v2.0** est une plateforme web moderne développée en **PHP** qui permet aux utilisateurs de : 
-- Se connecter et créer un compte
-- Partager des posts avec leur équipe
-- Collaborer sur des projets en "Team-Up"
-- Recevoir des notifications en temps réel
-- Commenter et interagir avec les posts
-- Gérer leur profil utilisateur
-- Bénéficier d'une interface administrateur pour la gestion
-
----
-
-## ✨ Fonctionnalités
-
-### Pour les utilisateurs
-✅ **Authentification sécurisée** - Inscription et connexion  
-✅ **Fil d'actualité** - Affichage des posts de l'équipe  
-✅ **Création de posts** - Partager du contenu avec l'équipe  
-✅ **Système de commentaires** - Interagir sur les posts  
-✅ **Notifications** - Rester informé des activités  
-✅ **Team Up** - Créer et rejoindre des équipes/projets  
-✅ **Profil utilisateur** - Gérer vos informations personnelles  
-✅ **Edition de profil** - Mettre à jour vos données
-
-### Pour les administrateurs
-👑 **Panneau administrateur** - Gérer l'ensemble de la plateforme  
-👑 **Gestion des utilisateurs** - Modération et administration  
-👑 **Vue d'ensemble** - Statistiques et monitoring
+**Twittorant v2.0** is a modern web platform developed with **PHP** that allows users to:
+- Register and log in securely
+- Share posts with their team
+- Collaborate on projects in "Team-Up" mode
+- Receive real-time notifications
+- Comment and interact with posts
+- Manage their user profile
+- Access an admin interface for platform management
 
 ---
 
-## 📦 Prérequis
+## ✨ Features
 
-Avant de commencer, assurez-vous d'avoir installé : 
+### For Users
+✅ **Secure Authentication** - Registration and login system  
+✅ **News Feed** - View posts from team members  
+✅ **Post Creation** - Share content with your team  
+✅ **Comments System** - Interact and discuss on posts  
+✅ **Notifications** - Stay informed about activities  
+✅ **Team Up** - Create and join teams/projects  
+✅ **User Profile** - Manage your personal information  
+✅ **Profile Editing** - Update your personal data  
 
-| Composant | Version | Lien |
+### For Administrators
+👑 **Admin Dashboard** - Manage the entire platform  
+👑 **User Management** - Moderation and administration  
+👑 **Overview Dashboard** - Statistics and monitoring  
+
+---
+
+## 📦 Prerequisites
+
+Before you begin, make sure you have the following installed:
+
+| Component | Version | Link |
 |-----------|---------|------|
-| **XAMPP** | 7.0+ | [Télécharger XAMPP](https://www.apachefriends.org/) |
-| **PHP** | 7.4+ | Inclus dans XAMPP |
-| **MySQL** | 5.7+ | Inclus dans XAMPP |
-| **Apache** | 2.4+ | Inclus dans XAMPP |
-| **Navigateur web** | Chrome/Firefox/Edge | N/A |
+| **XAMPP** | 7.0+ | [Download XAMPP](https://www.apachefriends.org/) |
+| **PHP** | 7.4+ | Included in XAMPP |
+| **MySQL** | 5.7+ | Included in XAMPP |
+| **Apache** | 2.4+ | Included in XAMPP |
+| **Web Browser** | Chrome/Firefox/Edge | N/A |
 
 ---
 
 ## 🚀 Installation
 
-### Étape 1 : Télécharger et installer XAMPP
+### Step 1: Download and Install XAMPP
 
-1. Téléchargez **XAMPP** depuis [apachefriends.org](https://www.apachefriends.org/)
-2. Installez-le dans le répertoire par défaut (ex: `C:\xampp` sur Windows)
-3. Lancez le **XAMPP Control Panel**
+1. Download **XAMPP** from [apachefriends.org](https://www.apachefriends.org/)
+2. Install it in the default directory (e.g., `C:\xampp` on Windows)
+3. Launch the **XAMPP Control Panel**
 
-### Étape 2 :  Démarrer les services
+### Step 2: Start Services
 
-1. Ouvrez **XAMPP Control Panel**
-2. Cliquez sur **Start** pour **Apache** et **MySQL**
+1. Open **XAMPP Control Panel**
+2. Click **Start** for both **Apache** and **MySQL** services
 
-![image alt text needed]
+### Step 3: Clone or Download the Project
 
-### Étape 3 :  Cloner ou télécharger le projet
-
-#### Option A : Via Git (recommandé)
+#### Option A: Using Git (Recommended)
 
 ```bash
 cd D:\XAMPP_Apps\htdocs
@@ -91,13 +91,13 @@ git clone https://github.com/b1l4l-sec/twittorant-v2.0.git
 cd twittorant-v2.0
 ```
 
-#### Option B : Téléchargement manuel
+#### Option B: Manual Download
 
-1. Téléchargez le fichier ZIP du projet
-2. Extrayez-le dans `D:\XAMPP_Apps\htdocs\`
-3. Renommez le dossier en `twittorant-v2.0`
+1. Download the ZIP file of the project
+2. Extract it to `D:\XAMPP_Apps\htdocs\`
+3. Rename the folder to `twittorant-v2.0`
 
-### Étape 4 : Placer le projet dans XAMPP htdocs
+### Step 4: Place the Project in XAMPP htdocs
 
 ```
 D:\XAMPP_Apps\htdocs\
@@ -125,315 +125,336 @@ D:\XAMPP_Apps\htdocs\
 
 ## ⚙️ Configuration
 
-### Étape 1 :  Créer la base de données
+### Step 1: Create the Database
 
-1. Ouvrez **phpMyAdmin** :  `http://localhost/phpmyadmin`
-2. Créez une nouvelle base de données : 
-   - Nom : `twittorant_db`
-   - Collation : `utf8mb4_unicode_ci`
+1. Open **phpMyAdmin**:  `http://localhost/phpmyadmin`
+2. Create a new database: 
+   - Name: `twittorant_db`
+   - Collation: `utf8mb4_unicode_ci`
 
-### Étape 2 :  Importer les tables
+### Step 2: Import Database Tables
 
-1. Allez dans la base de données `twittorant_db`
-2. Importez le fichier SQL depuis le dossier `db/` du projet
-3. Vérifiez que toutes les tables ont été créées
+1. Go to the `twittorant_db` database
+2. Import the SQL file from the `db/` folder of your project
+3. Verify that all tables have been created successfully
 
-### Étape 3 : Configurer les paramètres de connexion
+### Step 3: Configure Database Connection
 
-Modifiez le fichier de configuration (généralement dans `includes/config.php` ou `db/config.php`) :
+Edit the configuration file (typically in `includes/config.php` or `db/config.php`):
 
 ```php
 <?php
-// Configuration de la base de données
+// Database Configuration
 $servername = "localhost";
 $username = "root";
-$password = ""; // Laisser vide pour XAMPP
+$password = ""; // Leave empty for XAMPP
 $dbname = "twittorant_db";
 
-// Connexion à la base de données
+// Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Vérifier la connexion
+// Check connection
 if ($conn->connect_error) {
-    die("Erreur de connexion : " . $conn->connect_error);
+    die("Connection failed: " . $conn->connect_error);
 }
 
-// Définir le charset
+// Set charset
 $conn->set_charset("utf8mb4");
 ?>
 ```
 
-### Étape 4 : Vérifier les permissions des dossiers
+### Step 4: Configure Directory Permissions
 
 ```bash
-# Dossier uploads (doit avoir les droits d'écriture)
+# Make uploads folder writable
 chmod 755 uploads/
 chmod 755 img/
 ```
 
 ---
 
-## 🎮 Utilisation
+## 🎮 Usage
 
-### Accès à l'application
+### Access the Application
 
-1. Assurez-vous qu'**Apache** et **MySQL** sont en cours d'exécution
-2. Ouvrez votre navigateur et allez à : 
+1. Ensure **Apache** and **MySQL** are running
+2. Open your browser and navigate to: 
    ```
    http://localhost/twittorant-v2.0/
    ```
 
-### Première utilisation
+### First-Time Setup
 
-#### 1️⃣ **Créer un compte utilisateur**
-- Cliquez sur **"Register"** ou **"S'inscrire"**
-- Remplissez le formulaire avec vos informations
-- Confirmez votre inscription
+#### 1️⃣ **Create a User Account**
+- Click on **"Register"**
+- Fill in your information
+- Confirm your registration
 
-#### 2️⃣ **Se connecter**
-- Allez sur **"Login"** ou **"Connexion"**
-- Entrez vos identifiants
-- Cliquez sur **"Connexion"**
+#### 2️⃣ **Log In**
+- Click **"Login"**
+- Enter your credentials
+- Click **"Sign In"**
 
-#### 3️⃣ **Accéder au fil d'actualité**
-- Consultez les posts des autres utilisateurs
-- Créez vos propres posts
-- Commentez et interagissez
+#### 3️⃣ **Access Your Feed**
+- View posts from other team members
+- Create your own posts
+- Comment and interact with posts
 
-#### 4️⃣ **Créer/rejoindre une équipe**
-- Allez dans la section **"Team Up"**
-- Créez une nouvelle équipe ou rejoignez une existante
-- Collaborez avec vos coéquipiers
+#### 4️⃣ **Create or Join a Team**
+- Go to the **"Team Up"** section
+- Create a new team or join an existing one
+- Collaborate with your teammates
 
-#### 5️⃣ **Gérer votre profil**
-- Cliquez sur votre avatar/profil
-- Éditez vos informations personnelles
-- Mettez à jour votre photo de profil
+#### 5️⃣ **Manage Your Profile**
+- Click on your avatar/profile
+- Edit your personal information
+- Update your profile picture
 
-#### 6️⃣ **Recevoir les notifications**
-- Consultez la section **"Notifications"**
-- Restez informé des commentaires et interactions
+#### 6️⃣ **Check Notifications**
+- Go to the **"Notifications"** section
+- Stay updated on comments and activities
 
 ---
 
-## 📸 Captures d'écran
+## 📸 Screenshots
 
-### 🔐 Écran de connexion
+### 🔐 Login Screen
 ![LoginScreen](https://github.com/b1l4l-sec/twittorant-v2.0/raw/main/LogInScreen.png)
-*Connexion sécurisée avec validation des identifiants*
+*Secure login with credential validation*
 
-### 🏠 Écran d'accueil
+### 🏠 Home Screen
 ![HomeScreen](https://github.com/b1l4l-sec/twittorant-v2.0/raw/main/HomeScreen.png)
-*Fil d'actualité avec les posts des utilisateurs*
+*News feed with user posts*
 
-### 💬 Écran des commentaires
+### 💬 Comments Screen
 ![CommentsScreen](https://github.com/b1l4l-sec/twittorant-v2.0/raw/main/CommentsScreen.png)
-*Section de commentaires et interaction*
+*Comments section and interaction interface*
 
-### 🔔 Écran des notifications
+### 🔔 Notifications Screen
 ![NotificationsScreen](https://github.com/b1l4l-sec/twittorant-v2.0/raw/main/NotificationsScreen.png)
-*Centre de notifications en temps réel*
+*Real-time notification center*
 
-### 👥 Écran Team Up
+### 👥 Team Up Screen
 ![TeamUpScreen](https://github.com/b1l4l-sec/twittorant-v2.0/raw/main/TeamUpScreen.png)
-*Gestion et création des équipes collaboratives*
+*Team management and creation interface*
 
-### 👑 Écran administrateur
+### 👑 Admin Dashboard
 ![AdminHomeScreen](https://github.com/b1l4l-sec/twittorant-v2.0/raw/main/AdminHomeScreen.png)
-*Panneau de contrôle administrateur*
+*Administrator control panel*
 
 ---
 
-## 📁 Structure du projet
+## 📁 Project Structure
 
 ```
 twittorant-v2.0/
-├── index.php                 # Page d'accueil du fil
-├── login.php                 # Page de connexion
-├── register.php              # Page d'inscription
-├── logout.php                # Déconnexion
-├── post.php                  # Création/affichage des posts
-├── profile.php               # Profil utilisateur
-├── edit_profile.php          # Édition du profil
-├── notifications.php         # Notifications
-├── team-up.php               # Gestion des équipes
+├── index.php                 # Home feed page
+├── login.php                 # Login page
+├── register. php              # Registration page
+├── logout.php                # Logout functionality
+├── post.php                  # Post creation/display
+├── profile.php               # User profile page
+├── edit_profile.php          # Profile editing
+├── notifications.php         # Notifications page
+├── team-up.php               # Team management
 │
-├── admin/                    # 📁 Dossier administrateur
-│   ├── index.php            # Panneau d'administration
-│   └── (autres pages admin)
+├── admin/                    # 📁 Admin section
+│   ├── index.php            # Admin dashboard
+│   └── (other admin pages)
 │
 ├── api/                      # 📁 API endpoints
 │   ├── posts.php
 │   ├── comments.php
 │   ├── users.php
-│   └── (autres API)
+│   └── (other APIs)
 │
-├── includes/                 # 📁 Fichiers inclus
-│   ├── config.php           # Configuration DB
-│   ├── header.php           # En-tête
-│   ├── footer.php           # Pied de page
-│   └── functions.php        # Fonctions réutilisables
+├── includes/                 # 📁 Included files
+│   ├── config.php           # Database config
+│   ├── header.php           # Header template
+│   ├── footer.php           # Footer template
+│   └── functions.php        # Reusable functions
 │
-├── db/                       # 📁 Base de données
-│   ├── config.php           # Configuration
-│   └── schema.sql           # Schéma SQL
+├── db/                       # 📁 Database
+│   ├── config.php           # DB configuration
+│   └── schema.sql           # SQL schema
 │
-├── css/                      # 📁 Feuilles de style
+├── css/                      # 📁 Stylesheets
 │   ├── style.css
 │   └── responsive.css
 │
-├── js/                       # 📁 Scripts JavaScript
-��   ├── main.js
+├── js/                       # 📁 JavaScript
+│   ├── main.js
 │   └── ajax.js
 │
-├── img/                      # 📁 Images du site
+├── img/                      # 📁 Site images
 │   └── logo.png
 │
-├── uploads/                  # 📁 Uploads utilisateurs
-│   ├── profiles/            # Photos de profil
-│   └── posts/               # Images des posts
+├── uploads/                  # 📁 User uploads
+│   ├── profiles/            # Profile pictures
+│   └── posts/               # Post images
 │
-└── package.json              # Configuration npm
+└── package.json              # NPM configuration
 ```
 
 ---
 
-## 🔑 Accès administrateur
+## 🔑 Admin Access
 
-### Identifiants par défaut
+### Default Admin Credentials
 
-Un compte administrateur par défaut est disponible.  Consultez le fichier **`admin acc. txt`** pour les identifiants.
+A default admin account is available.  Check the **`admin acc. txt`** file for credentials. 
 
-**Fichier** : `admin acc.txt`
+**File**:  `admin acc.txt`
 
 ```
-Utilisateur: admin
-Mot de passe: (voir le fichier)
+Username: admin
+Password: (see file)
 ```
 
-### Fonctionnalités administrateur
+### Admin Features
 
-- 📊 Voir les statistiques globales
-- 👥 Gérer les utilisateurs
-- 🗑️ Supprimer les posts inappropriés
-- 🔒 Gérer les permissions
-- 📈 Surveiller l'activité
+- 📊 View global statistics
+- 👥 Manage users
+- 🗑️ Delete inappropriate posts
+- 🔒 Manage permissions
+- 📈 Monitor platform activity
 
 ---
 
-## 🛠️ Technologie utilisée
+## 🛠️ Technology Stack
 
-| Technologie | Utilisation |
-|------------|------------|
-| **PHP** | Backend et logique serveur |
-| **MySQL** | Base de données |
-| **HTML5** | Structure des pages |
-| **CSS3** | Mise en forme et responsive design |
-| **JavaScript** | Interactivité et validation client |
-| **AJAX** | Chargement dynamique |
-| **Bootstrap** | Framework CSS (optionnel) |
-
----
-
-## 🔐 Sécurité
-
-Cette application utilise les meilleures pratiques de sécurité : 
-
-- ✅ **Validation des données** - Côté serveur et client
-- ✅ **Protection contre les injections SQL** - Requêtes préparées
-- ✅ **Hachage des mots de passe** - MD5/SHA256
-- ✅ **Sessions sécurisées** - Gestion des sessions PHP
-- ✅ **CSRF Protection** - Tokens de validation
-- ✅ **Authentification** - Vérification des droits d'accès
+| Technology | Purpose |
+|-----------|---------|
+| **PHP** | Backend and server logic |
+| **MySQL** | Database |
+| **HTML5** | Page structure |
+| **CSS3** | Styling and responsive design |
+| **JavaScript** | Client-side interactivity |
+| **AJAX** | Dynamic content loading |
+| **Bootstrap** | CSS framework (optional) |
 
 ---
 
-## 📝 Licences et droits d'auteur
+## 🔐 Security
 
-Ce projet est développé par **@b1l4l-sec**
+This application implements security best practices:
 
-Tous droits réservés © 2026
-
----
-
-## 📧 Support et contribution
-
-Pour toute question ou suggestion : 
-
-- 🐛 **Signaler un bug** :  [Issues](https://github.com/b1l4l-sec/twittorant-v2.0/issues)
-- 💡 **Proposer une feature** : [Discussions](https://github.com/b1l4l-sec/twittorant-v2.0/discussions)
-- 🔗 **Repository** : [GitHub](https://github.com/b1l4l-sec/twittorant-v2.0)
+- ✅ **Data Validation** - Server and client-side validation
+- ✅ **SQL Injection Protection** - Prepared statements
+- ✅ **Password Hashing** - MD5/SHA256 hashing
+- ✅ **Secure Sessions** - PHP session management
+- ✅ **CSRF Protection** - Token validation
+- ✅ **Authentication** - Access control verification
 
 ---
 
-## 🚨 Dépannage courant
+## 🚨 Troubleshooting
 
-### Problème : "Erreur de connexion à la base de données"
+### Issue: "Database Connection Error"
 
-**Solution** :
+**Solution**:
 ```
-1. Vérifiez que MySQL est démarré dans XAMPP Control Panel
-2. Vérifiez les paramètres de connexion dans includes/config.php
-3. Assurez-vous que la base de données 'twittorant_db' existe
-4. Vérifiez l'utilisateur MySQL (par défaut: root, pas de mot de passe)
-```
-
-### Problème : "Le dossier uploads ne fonctionne pas"
-
-**Solution** :
-```
-1. Ouvrez CMD en tant qu'administrateur
-2. Naviguez vers le dossier uploads
-3. Exécutez:  chmod 755 uploads/
-4. Redémarrez Apache
+1. Verify MySQL is running in XAMPP Control Panel
+2. Check connection parameters in includes/config.php
+3. Ensure 'twittorant_db' database exists
+4. Verify MySQL user (default: root, no password)
 ```
 
-### Problème : "Les fichiers ne s'affichent pas"
+### Issue: "Uploads Folder Not Working"
 
-**Solution** :
+**Solution**:
 ```
-1. Vérifiez que le projet est dans D:\XAMPP_Apps\htdocs\
-2. Vérifiez l'URL:  http://localhost/twittorant-v2.0/
-3. Nettoyez le cache du navigateur (Ctrl+Shift+Del)
-4. Redémarrez Apache
+1. Open CMD as Administrator
+2. Navigate to the uploads folder
+3. Run: chmod 755 uploads/
+4. Restart Apache
+```
+
+### Issue: "Files Not Displaying"
+
+**Solution**:
+```
+1. Verify project is in D:\XAMPP_Apps\htdocs\
+2. Check URL:  http://localhost/twittorant-v2.0/
+3. Clear browser cache (Ctrl+Shift+Del)
+4. Restart Apache
+```
+
+### Issue: "Git Ownership Error"
+
+**Solution**: 
+```bash
+git config --global --add safe.directory "D:/XAMPP_Apps/htdocs/twittorant-v2.0"
 ```
 
 ---
 
-## 📊 Statistiques du projet
+## 📊 Project Statistics
 
-| Métrique | Valeur |
-|---------|--------|
-| **Langage principal** | CSS (frontend) + PHP (backend) |
-| **Fichiers PHP** | 9 |
-| **Dossiers** | 8 |
-| **Base de données** | MySQL |
-| **Statut** | Actif & Maintenu |
-
----
-
-**Dernière mise à jour** : 8 Janvier 2026  
-**Version** : 2.0  
-**Auteur** : [@b1l4l-sec](https://github.com/b1l4l-sec)
+| Metric | Value |
+|--------|-------|
+| **Primary Language** | CSS (frontend) + PHP (backend) |
+| **PHP Files** | 9 |
+| **Folders** | 8 |
+| **Database** | MySQL |
+| **Status** | Active & Maintained |
+| **Version** | 2.0 |
 
 ---
 
-```
+## 📧 Support & Contribution
 
-Voilà !  🎉 J'ai créé un **README. md complet et professionnel** qui inclut : 
+For questions or suggestions: 
 
-✅ **Toutes les images** du projet intégrées  
-✅ **Instructions d'installation** étape par étape pour XAMPP  
-✅ **Configuration de la base de données** MySQL  
-✅ **Structure complète** du projet  
-✅ **Guide d'utilisation** détaillé  
-✅ **Accès administrateur** documenté  
-✅ **Dépannage** des problèmes courants  
-✅ **Sécurité** et bonnes pratiques  
+- 🐛 **Report Bugs**:  [Issues](https://github.com/b1l4l-sec/twittorant-v2.0/issues)
+- 💡 **Suggest Features**: [Discussions](https://github.com/b1l4l-sec/twittorant-v2.0/discussions)
+- 🔗 **Repository**: [GitHub](https://github.com/b1l4l-sec/twittorant-v2.0)
 
-Vous pouvez maintenant : 
-1. Créer un fichier `README.md` dans votre repo
-2. Copier tout le contenu ci-dessus
-3. Pousser le fichier vers GitHub
+---
 
-Besoin d'aide pour ajouter ce fichier à votre repo ? 🚀
+## 📝 License
+
+This project is developed by **@b1l4l-sec**
+
+All rights reserved © 2026
+
+---
+
+## 🤝 Getting Help
+
+### Common Questions
+
+**Q: Can I use this on a live server?**  
+A: Yes, but ensure you update security settings and change default credentials.
+
+**Q: How do I add more users?**  
+A: Users can register themselves through the registration page.
+
+**Q: Can I customize the UI?**  
+A: Yes, modify the CSS files in the `css/` folder.
+
+**Q: How do I backup the database?**  
+A:  Use phpMyAdmin's export feature or use mysqldump command.
+
+---
+
+## ✅ Quick Start Checklist
+
+- [ ] XAMPP installed and running
+- [ ] Apache and MySQL started
+- [ ] Project cloned/downloaded to htdocs
+- [ ] Database created (twittorant_db)
+- [ ] Database configured in config.php
+- [ ] Uploads folder permissions set (755)
+- [ ] Application accessible at localhost/twittorant-v2.0/
+- [ ] Admin credentials saved securely
+
+---
+
+**Last Updated**: January 8, 2026  
+**Version**: 2.0  
+**Author**: [@b1l4l-sec](https://github.com/b1l4l-sec)
+
+---
+
+Enjoy collaborating!  🚀
